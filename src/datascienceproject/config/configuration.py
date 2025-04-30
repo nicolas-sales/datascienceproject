@@ -1,7 +1,7 @@
 from src.datascienceproject.constants import *
 from src.datascienceproject.utils.common import read_yaml, create_directories
 
-from src.datascienceproject.entity.config_entity import (DataIngestionConfig, DataValidationConfig)
+from src.datascienceproject.entity.config_entity import (DataIngestionConfig, DataValidationConfig, DataTransformationConfig)
 
 class ConfigurationManager:
     def __init__(self,
@@ -45,3 +45,17 @@ class ConfigurationManager:
             target_column_name=target_col
         )
         return data_validation_config
+    
+
+    def get_data_transformation_config(self)-> DataTransformationConfig:
+        config=self.config.data_transformation
+        separator = self.params["data_ingestion"]["separator"]
+
+        create_directories([config.root_dir])
+
+        data_transformation_config=DataTransformationConfig(
+            root_dir=config.root_dir,
+            data_path=config.data_path,
+            separator=separator
+        )
+        return data_transformation_config

@@ -17,3 +17,10 @@ class DataValidationConfig:
     all_schema:dict
     separator : str
     target_column_name: str
+
+
+@dataclass
+class DataTransformationConfig:
+    root_dir:Path
+    data_path:Path
+    separator : str

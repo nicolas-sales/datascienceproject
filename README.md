@@ -4,7 +4,7 @@
 
 1. Data Ingestion
 2. Data Validation
-3. Dataz Transformation
+3. Dataz Transformation -- Feature Engineering, Data Preproccesing
 4. Model Training
 5. Model Evaluation
 
