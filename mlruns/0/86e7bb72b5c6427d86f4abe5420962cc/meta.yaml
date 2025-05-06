@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/nico_/Desktop/MLOPS/datascienceproject/mlruns/0/86e7bb72b5c6427d86f4abe5420962cc/artifacts
+end_time: 1746517619682
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86e7bb72b5c6427d86f4abe5420962cc
+run_name: funny-stag-537
+run_uuid: 86e7bb72b5c6427d86f4abe5420962cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746517613370
+status: 3
+tags: []
+user_id: nico_

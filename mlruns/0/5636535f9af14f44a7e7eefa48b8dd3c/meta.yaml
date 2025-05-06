@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/nico_/Desktop/MLOPS/datascienceproject/mlruns/0/5636535f9af14f44a7e7eefa48b8dd3c/artifacts
+end_time: 1746518943459
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5636535f9af14f44a7e7eefa48b8dd3c
+run_name: nervous-carp-908
+run_uuid: 5636535f9af14f44a7e7eefa48b8dd3c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746518937916
+status: 3
+tags: []
+user_id: nico_
